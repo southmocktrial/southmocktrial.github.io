@@ -1,1 +1,0 @@
-# southmocktrial.github.io
