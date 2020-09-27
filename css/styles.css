@@ -7,16 +7,23 @@
 */
 .navbar {
     transition: all 0.4s;
-    text-transform:lowercase;
 }
 
 .navbar .nav-link {
-    color: #fff;
+    color: white;
+}
+
+.nav-item .active .nav-link{
+    color:gray;
+}
+
+.active{
+    color:gray;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #fff;
+    color: gray;
     text-decoration: none;
 }
 
@@ -27,17 +34,17 @@
 
 /* Change navbar styling on scroll */
 .navbar.active {
-    background: #fff;
+    background: white;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-    color: #555;
+    color: black;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #555;
+    color:gray;
     text-decoration: none;
 }
 
@@ -72,13 +79,35 @@
 
 
 body {
+    background-color:white;
     min-height: 110vh;
-    background-color: #4ca1af;
-    background-image: url(https://images.unsplash.com/photo-1555848965-141f2e58d1a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1548&q=80);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.jumbotron {
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1555848962-6e79363ec58f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: 'Poppins', sans-serif;
-    overflow:hidden;
+    background-attachment: fixed;
+}
 
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
