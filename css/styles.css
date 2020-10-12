@@ -11,7 +11,7 @@
     color:gray;
 }
 
-.active{
+.nav-link .active{
     color:gray;
 }
 
@@ -88,7 +88,44 @@ body {
 
 #competitions {
     background-color: black;
-    background-image: url(https://images.unsplash.com/photo-1524095957656-b06b5a3de2c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1248&q=80);
+    background-image: url(https://images.unsplash.com/photo-1596574027151-2ce81d85af3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1354&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#njmt {
+    background-color: black;
+    background-image: url(https://communitynews.org/wp-content/uploads/2018/01/2018-02-01-WWP-Mock-Trial.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.njmt {
+    width: 600px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+#pmc {
+    background-color: black;
+    background-image: url("https://www.regent.edu/app/uploads/2020/03/regent-university-school-of-law.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#officers {
+    background-image:url("https://images.unsplash.com/photo-1563803292528-ab8ada6c965d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -145,3 +182,44 @@ body {
     padding-right: 1.1rem;
     }
     }
+
+    @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+    .team4 {
+      font-family: "Montserrat", sans-serif;
+        color: #8d97ad;
+      font-weight: 300;
+    }
+    
+    .team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+      color: #3e4555;
+    }
+    
+    .team4 .font-weight-medium {
+        font-weight: 500;
+    }
+    
+    .team4 h5 {
+        line-height: 22px;
+        font-size: 18px;
+    }
+    
+    .team4 .subtitle {
+        color: #8d97ad;
+        line-height: 24px;
+            font-size: 13px;
+    }
+    
+    .team4 ul li a {
+      color: #8d97ad;
+      padding-right: 15px;
+      -webkit-transition: 0.1s ease-in;
+      -o-transition: 0.1s ease-in;
+      transition: 0.1s ease-in;
+    }
+    
+    .team4 ul li a:hover {
+      -webkit-transform: translate3d(0px, -5px, 0px);
+      transform: translate3d(0px, -5px, 0px);
+        color: #316ce8;
+    }
+    
